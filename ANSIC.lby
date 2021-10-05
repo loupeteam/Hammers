@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.3.8.58 SP?>
+<Library Version="0.08.0" SubType="AnsiC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>VersionHistory.txt</File>
+    <File Description="Exported data types">Hammers.typ</File>
+    <File Description="Exported constants">Hammers.var</File>
+    <File Description="Exported functions and function blocks">Hammers.fun</File>
+    <File Description="Accumulate a periodic input (un-modulo)">Accumulate.c</File>
+    <File Description="Accumulate a distance covered">AccumulateDistance.c</File>
+    <File Description="Scale an analog input value from counts to units">ScaleAnalogInput.c</File>
+    <File>cABS.h</File>
+    <File Description="Subtract two REALs and return the difference, corrected for rollover">subtractWithRollover.c</File>
+    <File Description="Local data types">TempSensor.typ</File>
+    <File>TempSensor.c</File>
+    <File Description="Return the mean of a data set">Mean.c</File>
+    <File Description="Compute the standard deviation of a data set">StandardDeviation.c</File>
+    <File>crc16.c</File>
+    <File>Blink.c</File>
+    <File>FastTON.c</File>
+    <File>Interval.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="MTLookUp" />
+    <Dependency ObjectName="standard" />
+    <Dependency ObjectName="AsIOTime" />
+  </Dependencies>
+</Library>

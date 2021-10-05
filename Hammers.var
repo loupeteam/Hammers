@@ -1,0 +1,14 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Library: Hammers
+ * File: Hammers.var
+ * Author: dfblackburn
+ * Created: April 07, 2016
+ ********************************************************************
+ * Constants of library Hammers
+ ********************************************************************)
+VAR CONSTANT
+	HAM_NUM_SCALE_POINTS : USINT := 50;
+	HAM_MAI_SCALE_POINTS : USINT := HAM_NUM_SCALE_POINTS-1;
+END_VAR
