@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.08.0" SubType="AnsiC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Reference="true">C:\projects\Loupe\Hammers\src\Ar\VersionHistory.txt</File>
+    <File Description="Exported functions and function blocks" Reference="true">C:\projects\Loupe\Hammers\src\Ar\Hammers.fun</File>
+    <File Description="Exported data types" Reference="true">C:\projects\Loupe\Hammers\src\Ar\Hammers.typ</File>
+    <File Description="Local data types" Reference="true">C:\projects\Loupe\Hammers\src\Ar\TempSensor.typ</File>
+    <File Description="Exported constants" Reference="true">C:\projects\Loupe\Hammers\src\Ar\Hammers.var</File>
+    <File Description="Accumulate a periodic input (un-modulo)" Reference="true">C:\projects\Loupe\Hammers\src\Ar\Accumulate.c</File>
+    <File Description="Accumulate a distance covered" Reference="true">C:\projects\Loupe\Hammers\src\Ar\AccumulateDistance.c</File>
+    <File Reference="true">C:\projects\Loupe\Hammers\src\Ar\Blink.c</File>
+    <File Reference="true">C:\projects\Loupe\Hammers\src\Ar\cABS.h</File>
+    <File Reference="true">C:\projects\Loupe\Hammers\src\Ar\crc16.c</File>
+    <File Reference="true">C:\projects\Loupe\Hammers\src\Ar\FastTON.c</File>
+    <File Reference="true">C:\projects\Loupe\Hammers\src\Ar\Interval.c</File>
+    <File Description="Return the mean of a data set" Reference="true">C:\projects\Loupe\Hammers\src\Ar\Mean.c</File>
+    <File Description="Scale an analog input value from counts to units" Reference="true">C:\projects\Loupe\Hammers\src\Ar\ScaleAnalogInput.c</File>
+    <File Reference="true">C:\projects\Loupe\Hammers\src\Ar\SettleDown.c</File>
+    <File Description="Compute the standard deviation of a data set" Reference="true">C:\projects\Loupe\Hammers\src\Ar\StandardDeviation.c</File>
+    <File Description="Subtract two REALs and return the difference, corrected for rollover" Reference="true">C:\projects\Loupe\Hammers\src\Ar\subtractWithRollover.c</File>
+    <File Reference="true">C:\projects\Loupe\Hammers\src\Ar\TempSensor.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="MTLookUp" />
+    <Dependency ObjectName="standard" />
+    <Dependency ObjectName="AsIOTime" />
+  </Dependencies>
+</Library>
