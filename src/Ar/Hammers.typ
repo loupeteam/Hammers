@@ -24,4 +24,17 @@ TYPE
 		mtLookup_ctsToVmA : MTLookUpTable;
 		mtLookup_VmAToUnits : MTLookUpTable;
 	END_STRUCT;
+	SdInternal_typ : 	STRUCT 
+		fb : SdFB_typ;
+		_in : BOOL;
+		state : SdState_enum;
+	END_STRUCT;
+	SdFB_typ : 	STRUCT 
+		timer : TON;
+	END_STRUCT;
+	SdState_enum : 
+		(
+		ST_SD_IDLE,
+		ST_SD_DEBOUNCE
+		);
 END_TYPE

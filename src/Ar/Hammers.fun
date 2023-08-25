@@ -152,3 +152,17 @@ FUNCTION_BLOCK FastTON
 		started : BOOL;
 	END_VAR
 END_FUNCTION_BLOCK
+
+{REDUND_ERROR} FUNCTION_BLOCK SettleDown (*TODO: Add your comment here*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
+	VAR_INPUT
+		in : BOOL;
+		onTime : TIME;
+		offTime : TIME;
+	END_VAR
+	VAR_OUTPUT
+		out : BOOL;
+	END_VAR
+	VAR
+		internal : SdInternal_typ;
+	END_VAR
+END_FUNCTION_BLOCK
