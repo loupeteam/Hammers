@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.9.3.144 FileVersion="4.9"?>
+<?AutomationStudio Version=4.10.6.39 FileVersion="4.9"?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
   <Module Name="5AC901.IPLK-00" Type="5AC901.IPLK-00" Version="1.7.1.0">
     <Connection Connector="SS" TargetModule="5PC910.SX02-00" TargetConnector="SS2" />
@@ -11,7 +11,6 @@
     <Connection Connector="SY" TargetModule="5PC910.SX02-00" TargetConnector="SY1" />
     <Parameter ID="ConfigurationID" Value="Starter_StarterConfig" />
     <Parameter ID="UserPartitionSize" Value="300" />
-    <Parameter ID="Simulation" Value="1" />
     <Parameter ID="UserRamDevice" Value="PCI.2.IPLK.SRAM" />
     <Parameter ID="UserRamSize" Value="500000" />
     <Parameter ID="RemMemDevice" Value="PCI.2.IPLK.SRAM" />
