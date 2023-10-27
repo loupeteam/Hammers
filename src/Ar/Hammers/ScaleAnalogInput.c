@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: Hammers
+/*
  * File: ScaleAnalogInput.c
- * Author: dfblackburn
- * Created: October 26, 2016
- ********************************************************************
- * Implementation of library Hammers
- ********************************************************************/
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of Hammers, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus

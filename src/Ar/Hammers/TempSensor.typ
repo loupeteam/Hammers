@@ -1,3 +1,12 @@
+(*
+ * File: TempSensor.typ
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of Hammers, licensed under the MIT License.
+ * 
+ *)
+
 
 TYPE
 	TEMP_LEVEL_enum : 
@@ -7,7 +16,7 @@ TYPE
 		TEMP_LEVEL_HIGH
 		);
 	hamTempSensor_OUT_typ : 	STRUCT 
-		Temperature : REAL; (*[°C]*)
+		Temperature : REAL; (*[ï¿½C]*)
 		TempLevel : TEMP_LEVEL_enum;
 		HighTempAlarm : BOOL;
 		WarningTempAlarm : BOOL;
@@ -16,8 +25,8 @@ TYPE
 		aiValue : INT;
 	END_STRUCT;
 	hamTempSensor_IN_CFG_typ : 	STRUCT 
-		ScaleFactor : REAL; (*default [0.1°C]*)
-		HighTemp : REAL; (*[°C]*)
+		ScaleFactor : REAL; (*default [0.1ï¿½C]*)
+		HighTemp : REAL; (*[ï¿½C]*)
 		WarningPercentage : REAL; (*default 85% [%]*)
 		HighPercentage : REAL; (*default 95% [%]*)
 	END_STRUCT;

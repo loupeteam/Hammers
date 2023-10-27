@@ -1,11 +1,11 @@
-/********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: Hammers
+/*
  * File: cABS.h
- * Author: dfblackburn
- * Created: April 15, 2016
- *******************************************************************/
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of Hammers, licensed under the MIT License.
+ * 
+ */
 
 #ifndef __C_ABS_H__
 #define __C_ABS_H__
