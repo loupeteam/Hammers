@@ -26,4 +26,6 @@ To install using the Loupe Package Manager (LPM), in an initialized Automation S
 
 ## Licensing
 
-This project is licensed under the [MIT License](LICENSE.md). The file `crc16.c` is licensed under the MIT License from Lammert Bies.
+This project is licensed under the [MIT License](LICENSE), including external components also licensed under the MIT License.
+
+-crc16.c
