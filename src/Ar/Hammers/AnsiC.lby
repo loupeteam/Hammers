@@ -5,7 +5,6 @@
     <File Description="Exported functions and function blocks">Hammers.fun</File>
     <File Description="Exported data types">Hammers.typ</File>
     <File Description="Exported constants">Hammers.var</File>
-    <File>VersionHistory.txt</File>
     <File Description="Accumulate a periodic input (un-modulo)">Accumulate.c</File>
     <File Description="Accumulate a distance covered">AccumulateDistance.c</File>
     <File Description="Scale an analog input value from counts to units">ScaleAnalogInput.c</File>

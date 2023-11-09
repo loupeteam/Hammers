@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: Hammers
- * File: TempSensorFn.c
- * Author: scismd
- * Created: July 25, 2016
- ********************************************************************
- * Implementation of library Hammers
- ********************************************************************/
+/*
+ * File: TempSensor.c
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of Hammers, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus

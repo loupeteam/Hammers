@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: Hammers
+/*
  * File: Accumulate.c
- * Author: dfblackburn
- * Created: April 07, 2016
- ********************************************************************
- * Implementation of library Hammers
- ********************************************************************/
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of Hammers, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus

@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: Hammers
+/*
  * File: subtractWithRollover.c
- * Author: dfblackburn
- * Created: April 25, 2016
- ********************************************************************
- * Implementation of library Hammers
- ********************************************************************/
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of Hammers, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus

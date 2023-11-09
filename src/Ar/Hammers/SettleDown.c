@@ -1,3 +1,12 @@
+/*
+ * File: SettleDown.c
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of Hammers, licensed under the MIT License.
+ * 
+ */
+
 
 #include <bur/plctypes.h>
 #include <stdbool.h>

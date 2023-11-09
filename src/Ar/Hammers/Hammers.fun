@@ -1,11 +1,11 @@
-(********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: Hammers
+(*
  * File: Hammers.fun
- * Author: dfblackburn
- * Created: April 07, 2016
- ********************************************************************
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of Hammers, licensed under the MIT License.
+ * 
+  ********************************************************************
  * Functions and function blocks of library Hammers
  ********************************************************************)
 
