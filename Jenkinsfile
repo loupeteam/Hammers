@@ -1,11 +1,11 @@
-library "jenkinsLibrary@feature/libraryBuildExpansion"
+
+library "jenkinsLibrary@develop"
 
 buildPublishPipeline(
-    slackChannel: "sandbox-github", 
-    asPythonVersion: "feature/libraryRefs",
-    asProjectRepo: "Hammers",
+    slackChannel: "sandbox-github",
+    asProjectRepo: "hammers",
     asProjectVersion: "main", 
     asProjectPath: "example/AsProject",
-    skipLpmInstall: true, 
-    librariesToExport: ['Hammers']
+    skipLpmInstall: true,
+    packagesToPublish: ['src/Ar/hammers']
 )
