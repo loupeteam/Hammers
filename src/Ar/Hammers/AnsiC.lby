@@ -19,6 +19,7 @@
     <File>FastTON.c</File>
     <File>Interval.c</File>
     <File>SettleDown.c</File>
+    <File>SimulationStatus.c</File>
   </Files>
   <Dependencies>
     <Dependency ObjectName="MTLookUp" />

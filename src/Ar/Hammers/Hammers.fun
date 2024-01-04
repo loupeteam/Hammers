@@ -166,3 +166,12 @@ END_FUNCTION_BLOCK
 		internal : SdInternal_typ;
 	END_VAR
 END_FUNCTION_BLOCK
+
+{REDUND_ERROR} {REDUND_UNREPLICABLE} FUNCTION_BLOCK SimulationStatus (*Used to find the Simulation status for your project*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
+	VAR_OUTPUT
+		out :  BOOL; (**)
+	END_VAR
+	VAR
+		devLink_0 : DevLink; (**)
+	END_VAR
+END_FUNCTION_BLOCK
