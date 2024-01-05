@@ -4,7 +4,7 @@ library "jenkinsLibrary@develop"
 buildPublishPipeline(
     slackChannel: "sandbox-github",
     asProjectRepo: "hammers",
-    asProjectVersion: "main", 
+    asProjectVersion: "feature/simulationStatus", 
     asProjectPath: "example/AsProject",
     skipLpmInstall: true,
     packagesToPublish: ['src/Ar/hammers']
