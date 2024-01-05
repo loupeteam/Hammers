@@ -1,11 +1,14 @@
 PROGRAM _INIT
 	
-	SimulationStatus_0();
+	myInitSimStatus := SimulationStatus(0);
 	
 END_PROGRAM
 	
 
 PROGRAM _CYCLIC
+	
+	myCyclicSimStatus := SimulationStatus(0);
+	myOverrideSimStatus := SimulationStatus(ADR(override));
 	
 	SettleDown_0();
 	
