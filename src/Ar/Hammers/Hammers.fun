@@ -167,11 +167,8 @@ END_FUNCTION_BLOCK
 	END_VAR
 END_FUNCTION_BLOCK
 
-{REDUND_ERROR} {REDUND_UNREPLICABLE} FUNCTION_BLOCK SimulationStatus (*Used to find the Simulation status for your project*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
-	VAR_OUTPUT
-		out :  BOOL; (**)
+FUNCTION SimulationStatus : BOOL (*Used to find the Simulation status for your project*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
+	VAR_INPUT
+		pOverride :  UDINT; (**)
 	END_VAR
-	VAR
-		devLink_0 : DevLink; (**)
-	END_VAR
-END_FUNCTION_BLOCK
+END_FUNCTION
