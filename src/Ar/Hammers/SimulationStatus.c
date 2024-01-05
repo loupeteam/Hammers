@@ -17,7 +17,7 @@ plcbit SimulationStatus(unsigned long pOverride)
 	
 	// check if override address is present
 	if (pOverride == 0){
-		if (DiagCpuIsSimulated()) {
+		if (DiagCpuIsARsim()) {
 			return 1;
 		} else {
 			return 0;
