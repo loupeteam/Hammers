@@ -18,6 +18,7 @@ This library has a compilation of tools including:
 -crc_16 - Calculates the 16 bits Cyclic Redundancy Check.  
 -FastTON - Implements a switch on delay.  
 -Interval - Implements a periodic switch on delay.  
+-SimulationStatus - Used to return the simulation status of the processor. 
 
 For more documentation and examples, see https://loupeteam.github.io/LoupeDocs/libraries/hammers.html
 
