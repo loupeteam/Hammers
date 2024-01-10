@@ -23,14 +23,6 @@ plcbit SimulationStatus(unsigned long pOverride)
 			return 0;
 		}
 	}
-	else{
-		plcbit override = *((plcbit*)pOverride);
-		if (override == 1){
-			return 1;
-		}
-		else{
-			return 0; 
-		}
-	}
+	return *((plcbit*)pOverride);
 	
 }
