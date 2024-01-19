@@ -166,3 +166,9 @@ END_FUNCTION_BLOCK
 		internal : SdInternal_typ;
 	END_VAR
 END_FUNCTION_BLOCK
+
+FUNCTION SimulationStatus : BOOL (*Used to find the Simulation status for your project*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
+	VAR_INPUT
+		pOverride :  UDINT; (**)
+	END_VAR
+END_FUNCTION

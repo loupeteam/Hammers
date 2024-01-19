@@ -1,3 +1,4 @@
+0.10.0 - Add SimulationStatus function
 0.9.0 - Add SettleDown (Debounce) fub
 0.8.0 - Add FastTON, Interval function blocks
 0.7.2 - Change return and input types in crc_16 to match .fun file

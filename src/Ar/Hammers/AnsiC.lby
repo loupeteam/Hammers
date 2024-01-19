@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
-<Library Version="0.09.0" SubType="AnsiC" xmlns="http://br-automation.co.at/AS/Library">
+<Library Version="0.10.0" SubType="AnsiC" xmlns="http://br-automation.co.at/AS/Library">
   <Files>
     <File Description="Exported functions and function blocks">Hammers.fun</File>
     <File Description="Exported data types">Hammers.typ</File>
@@ -19,6 +19,7 @@
     <File>FastTON.c</File>
     <File>Interval.c</File>
     <File>SettleDown.c</File>
+    <File>SimulationStatus.c</File>
   </Files>
   <Dependencies>
     <Dependency ObjectName="MTLookUp" />

@@ -1,3 +1,10 @@
 VAR
 	SettleDown_0 : SettleDown;
+	(*	SimulationStatus_0 : SimulationStatus;*)
+	simActive : BOOL;
+	override : BOOL;
+	myInitSimStatus : BOOL;
+	myCyclicSimStatus : BOOL;
+	myOverrideSimStatus : BOOL;
+	
 END_VAR
