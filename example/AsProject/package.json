@@ -1,7 +1,6 @@
 {
   "name": "asproject",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +8,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "@loupeteam/starterasproject49": "^0.1.0"
-  },
-  "lpmConfig": {
-    "deploymentConfigs": [],
-    "gitClient": "GitExtensions"
+    "@loupeteam/librarybuilderproject": "^1.0.0"
   }
 }
