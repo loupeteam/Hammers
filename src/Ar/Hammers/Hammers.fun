@@ -16,6 +16,83 @@ FUNCTION crc_16 : UINT
 	END_VAR
 END_FUNCTION
 
+FUNCTION crc8 : UINT
+	VAR_INPUT
+		input_str : UDINT;
+		length : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION crc32_fast : UDINT
+	VAR_INPUT
+		input_str : UDINT;
+		n_bytes : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION crc16_fast : UINT
+	VAR_INPUT
+		input_str : UDINT;
+		n_bytes : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION ccitt_crc_fast : UINT
+	VAR_INPUT
+		input_str : UDINT;
+		n_bytes : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION usMBAsciiLRC : USINT
+	VAR_INPUT
+		input_str : UDINT;
+		usLen : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION usMBCRC16 : UINT
+	VAR_INPUT
+		input_str : UDINT;
+		usLen : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION crc16_arc_fast : UINT
+	VAR_INPUT
+		input_str : UDINT;
+		len : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION crc32_slow : UDINT
+	VAR_INPUT
+		input_str : UDINT;
+		n_bytes : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION crc16_slow : UINT
+	VAR_INPUT
+		input_str : UDINT;
+		n_bytes : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION ccitt_crc_slow : UINT
+	VAR_INPUT
+		input_str : UDINT;
+		n_bytes : UDINT;
+	END_VAR
+END_FUNCTION
+
+FUNCTION RobotisServo_crc : UINT
+	VAR_INPUT
+		input_str : UDINT;
+		data_blk_size : UDINT;
+	END_VAR
+END_FUNCTION
+
 FUNCTION_BLOCK AccumulateDistance
 	VAR_INPUT
 		enable : BOOL;
